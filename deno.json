@@ -1,6 +1,7 @@
 {
   "name": "@cynthia/universal-proxy",
   "version": "0.0.1",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },

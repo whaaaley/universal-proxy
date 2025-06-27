@@ -26,7 +26,7 @@ function anything(): any {
         return 0 // Common property that gets checked
       }
 
-      // Handle array destructuring - make it iterable
+      // Handle array destructuring
       if (prop === Symbol.iterator) {
         return function* () {
           // Yield infinite proxies for array destructuring
